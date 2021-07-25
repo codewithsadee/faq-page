@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap');
+
+// Browser reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid;
+}
+
+body {
+  background: #ebf4ff;
+  font-family: 'Poppin', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 120px 20px 40px;
+}
+
+// FAQ section begin ----------------------------
+section.faq {
+  display: flex;
+  flex-direction: column;
+
+  // Section title ------------------------------
+  .section-title {
+    margin-bottom: 50px;
+
+    h1 {
+      font-size: 36px;
+      font-family: 'Great Vibes', cursive;
+      text-align: center;
+      color: #cc9035;
+    }
+  }
+
+  // Section body -------------------------------
+  .question-box {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 10px 10px #00000010;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    
+    // this class for question-box in javascript toggle
+    &.show {
+      height: 150px;
+    }
+
+    .question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-size: 14px;
+        color: #444c53;
+        letter-spacing: 2px;
+      }
+
+      .btn {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #cc9035;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all 0.1s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        div {
+          position: absolute;
+          width: 10px;
+          height: 2px;
+          margin: 5px;
+          background: #cc9035;
+        }
+
+        .rotate {
+          transform: rotate(90deg);
+          
+          // button toggle class ----------------------
+          &.minus {
+            transform: rotate(0deg);
+          }
+        }
+      }
+    }
+
+    .answer {
+      position: absolute;
+      left: 25px;
+      margin-top: 15px;
+      width: 400px;
+
+      p {
+        font-size: 14px;
+        color: #59636d;
+        line-height: 17px;
+      }
+    }
+  }
+}
