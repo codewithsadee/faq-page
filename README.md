@@ -12,8 +12,8 @@ frequently asked questions page which educates users about a business and drives
 
 <br>
 
-> **Screenshot**
-> 
-> ![FAQ Page Screenshot](https://github.com/codewithsadee/faq-page/blob/master/assets/images/screenshot-1.png "FAQ Page Screenshot 1")
+## Screenshots
+
+> ![FAQ Page Screenshot 1](https://github.com/codewithsadee/faq-page/blob/master/assets/images/screenshot-1.png "FAQ Page Screenshot 1")
 >
-> ![FAQ Page Screenshot](https://github.com/codewithsadee/faq-page/blob/master/assets/images/screenshot-2.png "FAQ Page Screenshot 1")
+> ![FAQ Page Screenshot 2](https://github.com/codewithsadee/faq-page/blob/master/assets/images/screenshot-2.png "FAQ Page Screenshot 2")
